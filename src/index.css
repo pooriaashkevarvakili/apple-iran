@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ant-table-wrapper .ant-table {
+  border-radius: 14px;
+}
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background: #f8fafc !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b !important;
+}
